@@ -1,0 +1,252 @@
+#body{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.menu{
+    position: fixed;
+    width: 23%;
+    height: 100%;
+    box-shadow: 3px 0 3px #c0b5b5;
+    border-bottom: 0.5em #bb0606 solid;
+    box-sizing: border-box;
+    z-index: 1;
+}
+.menu_logo{
+    display: block;
+    width: 50%;
+    object-fit: contain;
+    margin: auto;
+    margin-top:2.5em;
+    margin-bottom: 2.5em;
+}
+.menu_logo:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.menu_ul{
+    border-top: 1px #bb0606 solid;
+    list-style-type: none;
+    width:80%;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+.menu_ul li{
+    border-bottom: 1px #bb0606 solid;
+    text-align: center;
+    margin-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.menu_ul a:hover{
+    text-decoration: underline;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.menu_li{
+    color: #df0202;
+}
+.menu_btn{
+    margin-top: 1em;
+}
+.menu_btn a{
+    position: relative;
+    display: flex;
+    width: 65%;
+    height: 3%;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 25px;
+    color: #FFF;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgb(226, 0, 0), rgb(249, 111, 111));
+    text-decoration: none;
+}
+.menu_btn a:hover{
+    background: linear-gradient(90deg, rgb(226, 0, 0), rgb(214, 42, 42));
+    opacity: 0.9;
+}
+.main_div{
+    background-color: white;
+    width: 77.3%;
+    height: 100%;
+}
+.footer{
+    position: relative;
+    margin-left: 23%;
+    width: 77%;
+    height: 85%;
+    background-color: black;
+    z-index: 999;
+}
+.p_color{
+    color: white;
+}
+.a_map{
+    font-size: 0.5em;
+    color: blue;
+    text-decoration: none;
+}
+.a_map:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.p_space{
+    line-height: 1;
+    white-space: nowrap;
+    margin-top: 0; 
+    margin-bottom: 1.5em; 
+    font-size: 1.1em;
+}
+.material-icons{
+    color: white;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.top_div{
+    margin-left: 14%;
+}
+.center_div{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 60%;
+    margin:auto;
+}
+.left_div {
+    width: 40%;
+}
+.icon_div {
+    white-space: nowrap;
+    margin-top: 1.8em
+}
+.sns_icon{
+    margin-right:12%;
+}
+.sns_icon:hover{
+    cursor: pointer;
+    background: #111;
+    opacity: 0.5;
+}
+.right_div {
+    width: 40%;
+    margin-left: 6em;
+}
+.banner{
+    width: 100%;
+    height: 16%;
+    margin-bottom: 1.5em;
+    object-fit: contain;
+}
+.banner:hover{
+    cursor: pointer;
+    background: #111;
+    opacity: 0.5;
+}
+.bottom_div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+.bottom_div a{
+    font-size: 80%;
+}
+.bottom_div a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer_2{
+    margin-left: 23%;
+    width: 77%;
+    text-align: center;
+}
+.footer_logo{
+    width: 8%;
+    height: 8%;
+    object-fit: contain;
+}.footer_p{
+    font-size: 0.8em;
+    color: #afafaf;
+    margin-top: 2em;
+    font-weight: 500;
+}
+@media screen and (max-width: 767px) {
+    #body{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .menu{
+        display: flex;
+        width: 100%;
+        height: 8%;
+        background: #FFF;
+        border-style: none;
+        z-index: 999;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .menu_logo{
+        width: 100%;
+        height: 70%;
+        margin-top: 0;
+        object-fit: contain;
+    }
+    .menu_ul{
+        display:none;
+    }
+    .menu_btn{
+        display:none;
+    }
+    
+
+
+    .footer{
+        width: 100%;
+        height: 130%;
+        margin: 0;
+        z-index: 1;
+    }
+    .top_div{
+        margin-left: 11%;
+        font-size: 0.8em;
+    }
+    .center_div{
+        display: block;
+        height: 80%;
+    }
+    .left_div{
+        width: 100%;
+    }
+    .left_div iframe{
+        width: 100%;
+    }
+    .sns_icon{
+        margin-right: 15%;
+    }
+    .right_div{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .bottom_div{
+        display: grid;
+        justify-items: center;
+        margin-top: 1.5em;
+    }
+    .bottom_div p{
+        display: none;
+    }
+    .banner{
+        height: 10%;
+        margin-bottom: 0;
+    }
+    .footer_2{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer_logo{
+        width: 25%;
+    }
+    .footer_p{
+        margin-top: 0;
+    }
+}
