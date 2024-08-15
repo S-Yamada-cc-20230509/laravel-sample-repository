@@ -5,7 +5,7 @@
 <body>
     <div class="menu" style="left: 0; top: 0;">
         <a href="{{ route('user.top') }}">
-            <img src="{{asset("img/logo.jpg")}}" class="menu_logo" alt>
+            <img src="{{asset("img/logo.jpg")}}" class="menu_logo" alt="NCA">
         </a>
         <ul class="menu_ul">
             <li><a href="#" class="menu_top">TOP</a></li>

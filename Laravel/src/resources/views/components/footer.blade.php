@@ -26,11 +26,11 @@
                 </div>
             </div>
             <div class="right_div">
-                <a href="#"><img src="{{asset("img/banner/NCA.jpg")}}" class="banner" style="margin-top: 20px;" alt></a>
-                <a href="#"><img src="{{asset("img/banner/Nm.jpg")}}" class="banner" alt></a>
-                <a href="#"><img src="{{asset("img/banner/Shop.jpg")}}" class="banner" alt></a>
-                <a href="#"><img src="{{asset("img/banner/YA_Official.jpg")}}" class="banner" alt></a>
-                <a href="#"><img src="{{asset("img/banner/HEARTH.jpg")}}" class="banner" alt></a>
+                <a href="#"><img src="{{asset("img/banner/NCA.jpg")}}" class="banner" style="margin-top: 20px;" alt="NCA"></a>
+                <a href="#"><img src="{{asset("img/banner/Nm.jpg")}}" class="banner" alt="Nm"></a>
+                <a href="#"><img src="{{asset("img/banner/Shop.jpg")}}" class="banner" alt="Shop"></a>
+                <a href="#"><img src="{{asset("img/banner/YA_Official.jpg")}}" class="banner" alt="YA_Official"></a>
+                <a href="#"><img src="{{asset("img/banner/HEARTH.jpg")}}" class="banner" alt="HEARTH"></a>
             </div>
         </div>
         <div class="bottom_div">
