@@ -19,10 +19,10 @@
                 <p class="p_color left_p"><i class="material-icons">phone_iphone</i>03-5779-6814</p>
                 <p class="p_color left_p"><i class="material-icons">email</i>desk@e-nca.jp</p>
                 <div class="icon_div">
-                    <a><img src="{{asset("img/icon/instagram.png")}}" class="sns_icon" alt></a>
-                    <a><img src="{{asset("img/icon/facebook.png")}}" class="sns_icon" alt></a>
-                    <a><img src="{{asset("img/icon/line.png")}}" class="sns_icon" alt></a>
-                    <a><img src="{{asset("img/icon/youtube.png")}}" class="sns_icon" alt></a>
+                    <a><img src="{{asset("img/icon/instagram.png")}}" class="sns_icon" alt="instagram"></a>
+                    <a><img src="{{asset("img/icon/facebook.png")}}" class="sns_icon" alt="facebook"></a>
+                    <a><img src="{{asset("img/icon/line.png")}}" class="sns_icon" alt="line"></a>
+                    <a><img src="{{asset("img/icon/youtube.png")}}" class="sns_icon" alt="youtube"></a>
                 </div>
             </div>
             <div class="right_div">
