@@ -15,9 +15,22 @@
                     <img src="{{asset('img/8zUCehAIc2Nlb7D10ErYNytwC4mku6bYNmOOUymL.jpg')}}" class="top_img" alt="勝てる体幹トレーニングオンラインレッスン">
                 </div>
                 <div class="news_div">
-                    <h2>NEWS>>></h2>
-                    <div class="news_contents">
-                        <!--内容-->
+                    <div class="news_title">
+                        <h1>NEWS</h1>
+                        <img src="{{asset("img/arrow.jpg")}}" class="news_img" alt="arrow">
+                    </div>
+                    <div class="news_contents">                    
+                        @foreach ($news_lists as $news_list)
+                            <div class="news_content">
+                                <a href="#" class="news_link">
+                                    <p>{{$news_list->date->isoformat('YYYY/MM/DD(ddd)')}}</p>
+                                    <p style="font-weight: 600;">{{$news_list->title}}</p>
+                                </a>
+                            </div>
+                        @endforeach
+                        <div class="past_div">
+                            <a href="#" class="past_list">過去の一覧<span style="color: #d30000;">▶︎</span></a>
+                        </div>
                     </div>
                 </div>
                     <div class="topdesign_center">
