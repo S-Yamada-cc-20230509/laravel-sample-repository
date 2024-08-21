@@ -58,6 +58,16 @@
                         </div>
                     </div>
                 <div class="point_div">
+                    <div class="point_circle">
+                        <svg class="circleText" viewBox="0 0 100 100">
+                        <path id="circle" class="circleText__circle" d="M 0 50 A 50 50 0 1 1 0 51 z"/>
+                        <text class="circleText__text">
+                            <textPath xlink:href="#circle">
+                            JUNIOR A THLETE CLUB JUNIOR A THLETE CLUB JUNIOR A THLETE CLUB JUNIOR A THLETE CLUB JUNIOR A THLETE CLUB
+                            </textPath>
+                        </text>
+                        </svg>
+                    </div>
                     <div class="point_title">
                         <h1 class="point_h1">01</h1>
                         <h2 class="point_h2">自宅でプロの指導が受けれる</h2>
@@ -91,6 +101,16 @@
                     </div>
                 </div>
                 <div class="point02_div">
+                    <div class="point_circle02">
+                        <svg class="circleText" viewBox="0 0 100 100">
+                        <path id="circle" class="circleText__circle" d="M 0 50 A 50 50 0 1 1 0 51 z"/>
+                        <text class="circleText__text">
+                            <textPath xlink:href="#circle">
+                            JUNIOR A THLETE CLUB JUNIOR A THLETE CLUB JUNIOR A THLETE CLUB JUNIOR A THLETE CLUB JUNIOR A THLETE CLUB
+                            </textPath>
+                        </text>
+                        </svg>
+                    </div>
                     <div class="point02_title">
                         <div class="point02_h2_div">
                             <h2 class="point02_h2">スポーツクラブでは 教えてくれない</h2>
@@ -125,6 +145,16 @@
                     </div>
                 </div>
                 <div class="point_div">
+                    <div class="point_circle">
+                        <svg class="circleText" viewBox="0 0 100 100">
+                        <path id="circle" class="circleText__circle" d="M 0 50 A 50 50 0 1 1 0 51 z"/>
+                        <text class="circleText__text">
+                            <textPath xlink:href="#circle">
+                            JUNIOR A THLETE CLUB JUNIOR A THLETE CLUB JUNIOR A THLETE CLUB JUNIOR A THLETE CLUB JUNIOR A THLETE CLUB
+                            </textPath>
+                        </text>
+                        </svg>
+                    </div>
                     <div class="point_title">
                         <h1 class="point_h1">03</h1>
                         <h2 class="point_h2">子供の自主性を育む 卒業制度</h2>

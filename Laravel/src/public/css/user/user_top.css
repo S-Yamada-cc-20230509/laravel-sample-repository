@@ -22,7 +22,6 @@
     margin-top: 50px;
     margin-bottom: 100px;
 }
-
 .news_div{
     width: 70%;
     margin: 0 auto;
@@ -65,7 +64,6 @@
     cursor: pointer;
     opacity: 0.7;
 }
-
 .topdesign_center{
     display: flex;
     justify-content: center;
@@ -130,9 +128,38 @@ br{
     display: flex;
     position: absolute;
 }
+
+.point_circle {
+    position: relative;
+    transform: translate(2px,48px);
+    width: 170px;
+    height: 0;
+}
+.circleText {
+    overflow: visible;
+    animation: rotation 25s linear infinite;
+    text {
+      fill: #d30000;
+      font-size: 6px;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+}
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+#circle {
+    fill: none;
+}
+
 .point_h1{
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 20px;
     font-size: 100px;
     font-weight: 600;
     color: #d30000;
@@ -216,6 +243,13 @@ br{
 .point02_div{
     margin-bottom: 10%;
 }
+.point_circle02 {
+    position: relative;
+    transform: translate(-2px,50px);
+    width: 170px;
+    height: 0;
+    margin-left: auto;
+}
 .point02_title{
     display: flex;
     justify-content: flex-end;
@@ -233,7 +267,7 @@ br{
     margin-bottom: 0;
 }
 .point02_h1{
-    margin-right: 50px;
+    margin-right: 20px;
     margin-left: 50px;
     font-size: 100px;
     font-weight: 600;
@@ -267,26 +301,26 @@ br{
     border-bottom-left-radius: 5px;
     margin-top: 14%
 }
+.tag_div{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.tag_div:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
 .tag_a{
     text-decoration: none;
     color: #d30000;
     text-align: right;
     font-size: 1.5em;
 }
-.tag_a:hover{
-    cursor: pointer;
-    opacity: 0.7;
-}
 .arrow_icon{
     color: #d30000;
     padding-bottom: 5px;
     padding-left: 20px;
     margin-right: 50px;
-}
-.tag_div{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
 }
 @media screen and (min-width: 768px) and (max-width: 1280px){
     #container{
@@ -317,10 +351,10 @@ br{
     .point02_img{
         width: 345px;
         height: 194px;
-        margin-top: 224px;
+        margin-top: 210px;
     }
     .point02_contents{
-        transform: translate(0px, 0px);
+        transform: translate(0px, -4px);
     }
 }
 @media screen and (max-width: 767px) {
@@ -375,12 +409,14 @@ br{
     .topdesign_right {
         display: none;
     }
-
+    .point_circle{
+        transform: translate(-55px,145px);
+    }
     .point_title {
         display: flex;
         position: relative;
-        transform: translate(-70px, 90px);
-        width: 110%;
+        transform: translate(-55px, 90px);
+        width: 105%;
     }
     .point_h2{
         text-align: right;
@@ -434,16 +470,19 @@ br{
     .point02_div{
         height: 530px;
     }
+    .point_circle02{
+        transform: translate(45px,-90px);
+    }
     .point02_h2_div {
         position: relative;
-        transform: translate(65px, -140px);
+        transform: translate(45px, -140px);
     }
     .point02_h2 {
         width: 80%;
     }
     .point02_h1 {
         position: relative;
-        transform: translate(65px, -140px);
+        transform: translate(45px, -140px);
     }
     .point02_img {
         width: 80%;
