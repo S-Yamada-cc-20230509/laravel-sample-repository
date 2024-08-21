@@ -4,6 +4,9 @@
         <link rel="stylesheet" href="{{ asset('css/user/user_top.css') }}">
         <link rel="icon" href="img/favicon.ico">
         <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     </head>
     <body id="body">
@@ -16,7 +19,7 @@
                 </div>
                 <div class="news_div">
                     <div class="news_title">
-                        <h1>NEWS</h1>
+                        <h1 style="font-family: Raleway, sans-serif;">NEWS</h1>
                         <img src="{{asset("img/arrow.jpg")}}" class="news_img" alt="arrow">
                     </div>
                     <div class="news_contents">                    

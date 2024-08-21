@@ -21,6 +21,9 @@
     box-shadow: 0px 10px 10px -6px rgba(0, 0, 0, 0.3);
     margin-top: 50px;
     margin-bottom: 100px;
+    border-radius: 15px;
+    border: 1px solid white;
+    box-sizing: border-box;
 }
 .news_div{
     width: 70%;
@@ -368,8 +371,12 @@ br{
         margin-top: 100px;
         margin-bottom: 50px;
     }
+    .news_div{
+        height: 80%;
+    }
     .news_contents{
-        height:  80%;;
+        height:  80%;
+        margin-bottom: 0;
     }
     .topdesign_center {
         width: 100%;
@@ -537,6 +544,9 @@ br{
     }
 }
 @media screen and (300px <= width < 390px) {
+    .news_div{
+        margin-bottom: 200;
+    }
     .topdesign_left {
         width: 94%;
     }
