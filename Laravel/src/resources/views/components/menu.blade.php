@@ -16,7 +16,7 @@
             <li><a href="#" class="menu_a">サービス内容</a></li>
             <li><a href="#" class="menu_a">料金</a></li>
             <li><a href="#" class="menu_a">利用者の声</a></li>
-            <li><a href="#" class="menu_a">オフィシャルサポーター</a></li>
+            <li><a href="{{route("user.officialsupporter.top")}}" class="menu_a">オフィシャルサポーター</a></li>
             <li><a href="#" class="menu_a">NEWS</a></li>
             <li><a href="#" class="menu_a">よくある質問・お問い合わせ</a></li>
         </ul>

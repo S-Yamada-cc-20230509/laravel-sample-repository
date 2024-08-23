@@ -1,0 +1,122 @@
+#body{
+    overflow-x: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+.main_div{
+    background-color: white;
+    margin-left: 23%;
+    width: 77%;
+}
+.home_div{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.home_a{
+    text-decoration: none;
+}
+.home_a:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.top_icon{
+    color: #b5b5b5
+}
+.official_div{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.official_img{
+    width: 100%;
+}
+.official_p{
+    font-size: 19px;
+}
+.supporter_div{
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.supporter_h2{
+    border-left: 5px solid #d30000;
+    padding-left: 10px;
+}
+.banner_div{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.supporter_banner:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.supporter_contact{
+    background: #d30000;
+    border-radius: 10px;
+    display: flex;
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.supporter_p{
+    width: 37%;
+    font-size: 18px;
+    color: white;
+}
+.contact_div{
+    background: white;
+    border-radius: 5px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact_div:hover{
+    cursor: pointer;
+}
+.contact_a{
+    color: #d30000;
+    text-decoration: none;
+}
+.contact_p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right_img{
+    width: 13%;
+}
+.mobile_tag{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+.tag_div{
+    display: flex;
+    align-items: center;
+}
+.tag_div:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.tag_icon_a{
+    width: 26%;
+}
+.tag_a{
+    text-decoration: none;
+    color: #d30000;
+    text-align: right;
+    font-size: 1.5em;
+    white-space: nowrap;
+}
+.arrow_icon{
+    color: #d30000;
+    padding-bottom: 5px;
+}

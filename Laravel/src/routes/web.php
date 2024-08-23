@@ -16,4 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::group(['prefix' => '/user', 'as' => 'user.'], function(){
   // ユーザートップ画面
   Route::get('/', 'user\UserController@top')->name('top');
+  // オフィシャルサポーター
+  Route::get('/officialsupporter/top', 'user\UserController@officialsupporter')->name('officialsupporter.top');
+  // お問い合わせ
+  Route::get('/officialsupporter/contact','user\UserController@contact')->name('contact.top');
+  // 確認画面
+  Route::post('/officialsupporter/confirm','user\UserController@confirm')->name('contact.confirm');
 });
