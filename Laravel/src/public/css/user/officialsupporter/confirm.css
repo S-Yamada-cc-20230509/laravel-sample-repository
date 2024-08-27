@@ -127,7 +127,7 @@
     background: #FFF;
     border: 1px solid #d30000;
     border-radius: 5px;
-    margin-top: 10px;list-style-type: none;
+    margin-top: 10px;
     text-decoration: none;
     color: #d30000;
 }
@@ -137,29 +137,9 @@
 .left_img{
     width: 13%;
 }
-.error_msg{
-    color: #d30000;
-    list-style-type: none;
-    font-size: 14px;
-}
-.error_div{
-    display: flex;
-}
-.error_right{
-    margin-left: 225px;
-}
-.error_right_hiragana{
-    margin-left: 215px;
-}
 @media screen and (min-width: 768px) and (max-width: 1280px){
     #container{
         width: 1280px;
-    }
-    .error_right {
-        margin-left: 165px;
-    }
-    .error_right_hiragana {
-        margin-left: 150px;
     }
     .back_btn a {
         width: 23%;
@@ -178,19 +158,6 @@
     }
     .input_div {
         width: 90%;
-    }
-    .error_div {
-        width: 100%;
-        justify-content: space-between;
-    }
-    .error_msg {
-        font-size: 12px;
-    }
-    .error_right {
-        margin-left: 0;
-    }
-    .error_right_hiragana {
-        margin-left: 0;
     }
     .part_label {
         width: 25%;

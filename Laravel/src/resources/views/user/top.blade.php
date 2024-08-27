@@ -2,7 +2,7 @@
     <head>
         <title>子どもの身体作りに必要な"基本動作"を育むトレーニング</title>
         <link rel="stylesheet" href="{{ asset('css/user/user_top.css') }}">
-        <link rel="icon" href="img/favicon.ico">
+        <link rel="icon" href="public/img/favicon.ico">
         <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

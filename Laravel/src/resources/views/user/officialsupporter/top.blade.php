@@ -2,8 +2,7 @@
     <head>
         <title>【サポート企業募集】子供たちの夢を応援しませんか?</title>
         <link rel="stylesheet" href="{{ asset('css/user/officialsupporter/top.css') }}">
-        <link rel="icon" href="img/favicon.ico">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     </head>
     <body id="body">
@@ -19,8 +18,8 @@
                 <div class="official_div">
                     <img src="{{asset("img/official_supporter_banner.jpg")}}" class="official_img" alt="オフィシャルサポーター">
                     <p class="official_p">
-                        NCAジュニアアスリートクラブでは、スポーツを頑張る子供たちをともにサポートしてくださる方を探しています。
-                        子供たちの夢のために一緒に応援しませんか？
+                        NCAジュニアアスリートクラブでは、<br>スポーツを頑張る子供たちをともに<br>サポートしてくださる方を探しています。<br>
+                        子供たちの夢のために一緒に<br>応援しませんか？
                     </p>
                 </div>
                 <div class="supporter_div">

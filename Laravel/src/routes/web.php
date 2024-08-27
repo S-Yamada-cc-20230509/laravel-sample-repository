@@ -22,4 +22,6 @@ Route::group(['prefix' => '/user', 'as' => 'user.'], function(){
   Route::get('/officialsupporter/contact','user\UserController@contact')->name('contact.top');
   // 確認画面
   Route::post('/officialsupporter/confirm','user\UserController@confirm')->name('contact.confirm');
+  // 完了画面
+  Route::post('/officialsupporter/complete','user\UserController@complete')->name('contact.complete');
 });
