@@ -1,0 +1,38 @@
+.app_div{
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+    margin: 0 auto;
+}
+.content_div{
+    display: flex;
+    flex-flow: column;
+    margin-top: 15px;
+}
+.content_div label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.content_textarea{
+    height: 150px;
+}
+.add_btn{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 25px;
+    color: #FFF;
+    font-weight: 600;
+    background: #d30000;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.error_msg{
+    list-style-type: none;
+    color: #d30000;
+}
