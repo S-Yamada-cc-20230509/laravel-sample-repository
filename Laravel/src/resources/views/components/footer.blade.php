@@ -19,18 +19,18 @@
                 <p class="p_color left_p"><i class="material-icons">phone_iphone</i>03-5779-6814</p>
                 <p class="p_color left_p"><i class="material-icons">email</i>desk@e-nca.jp</p>
                 <div class="icon_div">
-                    <a><img src="{{asset("img/icon/instagram.png")}}" class="sns_icon" alt="instagram"></a>
-                    <a><img src="{{asset("img/icon/facebook.png")}}" class="sns_icon" alt="facebook"></a>
-                    <a><img src="{{asset("img/icon/line.png")}}" class="sns_icon" alt="line"></a>
-                    <a><img src="{{asset("img/icon/youtube.png")}}" class="sns_icon" alt="youtube"></a>
+                    <a><img src="{{ asset("img/icon/instagram.png") }}" class="sns_icon" alt="instagram"></a>
+                    <a><img src="{{ asset("img/icon/facebook.png") }}" class="sns_icon" alt="facebook"></a>
+                    <a><img src="{{ asset("img/icon/line.png") }}" class="sns_icon" alt="line"></a>
+                    <a><img src="{{ asset("img/icon/youtube.png") }}" class="sns_icon" alt="youtube"></a>
                 </div>
             </div>
             <div class="right_div">
-                <a href="#"><img src="{{asset("img/banner/NCA.jpg")}}" class="banner" style="margin-top: 20px;" alt="NCA"></a>
-                <a href="#"><img src="{{asset("img/banner/Nm.jpg")}}" class="banner" alt="Nm"></a>
-                <a href="#"><img src="{{asset("img/banner/Shop.jpg")}}" class="banner" alt="Shop"></a>
-                <a href="#"><img src="{{asset("img/banner/YA_Official.jpg")}}" class="banner" alt="YA_Official"></a>
-                <a href="#"><img src="{{asset("img/banner/HEARTH.jpg")}}" class="banner" alt="HEARTH"></a>
+                <a href="#"><img src="{{ asset("img/banner/NCA.jpg") }}" class="banner" style="margin-top: 20px;" alt="NCA"></a>
+                <a href="#"><img src="{{ asset("img/banner/Nm.jpg") }}" class="banner" alt="Nm"></a>
+                <a href="#"><img src="{{ asset("img/banner/Shop.jpg") }}" class="banner" alt="Shop"></a>
+                <a href="#"><img src="{{ asset("img/banner/YA_Official.jpg") }}" class="banner" alt="YA_Official"></a>
+                <a href="#"><img src="{{ asset("img/banner/HEARTH.jpg") }}" class="banner" alt="HEARTH"></a>
             </div>
         </div>
         <div class="bottom_div">
@@ -40,7 +40,7 @@
         </div>
     </div>    
     <div class="footer_2">
-        <img src="{{asset("img/logo.jpg")}}" class="footer_logo" alt>
+        <img src="{{ asset("img/logo.jpg") }}" class="footer_logo" alt>
         <p class="footer_p">©ncajuniorathleteclub</p>
     </div>
 </body>

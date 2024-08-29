@@ -2,7 +2,7 @@
     <head>
         <title>オフィシャルサポーター</title>
         <link rel="stylesheet" href="{{ asset('css/user/officialsupporter/contact.css') }}">
-        <link rel="icon" href="public/img/favicon.ico">
+        <link rel="icon" href="{{ asset('img/favicon.ico') }}">
         <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
         <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     </head>
@@ -11,13 +11,13 @@
         <div id="container">
             <div class="main_div">
                 <div class="home_div">
-                    <a href="{{route("user.top")}}" class="home_a"><i class="material-icons top_icon">home</i></a>
+                    <a href="{{ route("user.top") }}" class="home_a"><i class="material-icons top_icon">home</i></a>
                     <i class="material-icons top_icon">arrow_forward_ios</i>
                     <p>オフィシャルサポーター</p>
                 </div>
                 <div class="input_div">
                     <h2 class="contact_h2">お問い合わせ</h2>
-                    <form method="post" action="{{route("user.contact.confirm")}}">
+                    <form method="post" action="{{ route("user.contact.confirm") }}">
                         {{csrf_field()}}
                         <h3>お名前<span style="color: #d30000">*</span></h3>
                         <div class="error_div">
@@ -130,17 +130,17 @@
                                 <input type="checkbox" class="checkbox" name="others" value="1" required="required">
                                 <label for="others" class="checkbox_label">その他</label>
                             </div>
-                            <input class="questionary_input" type="text" name="free_input" value="{{old('free_input', $contact['free_input'] ?? '') }}" placeholder="ご自由にご入力ください">
+                            <input class="questionary_input" type="text" name="free_input" value="{{ old('free_input', $contact['free_input'] ?? '') }}" placeholder="ご自由にご入力ください">
                             @if ($errors->has('free_input'))
                                 <li class="error_msg">{{ $errors->first('free_input') }}</li>
                             @endif
                         </div>
                         <div>
-                            <button type="submit" id="submit" class="contact_btn">確認画面へ<img src="{{asset("img/arrow_right.png")}}" class="right_img" alt="arrow_right"></button>
+                            <button type="submit" id="submit" class="contact_btn">確認画面へ<img src="{{ asset("img/arrow_right.png") }}" class="right_img" alt="arrow_right"></button>
                         </div>
                     </form>
                     <div class="back_btn">
-                        <a href="{{route("user.officialsupporter.top")}}">戻る<img src="{{asset("img/arrow_left.png")}}" class="left_img" alt="arrow_right"></a>
+                        <a href="{{ route("user.officialsupporter.top") }}">戻る<img src="{{ asset("img/arrow_left.png") }}" class="left_img" alt="arrow_right"></a>
                     </div>
                 </div>
                 <div class="mobile_tag">

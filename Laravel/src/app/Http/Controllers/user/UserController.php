@@ -27,27 +27,8 @@ class UserController extends Controller
             'contact' => $request->all()
         ]);
     }
-    public function complete(ContactFormRequest $request){
-        $contact = new Contact();
-
-        $contact->last_name_kanji = $request->last_name_kanji;
-        $contact->first_name_kanji = $request->first_name_kanji;
-        $contact->last_name_hiragana = $request->last_name_hiragana;
-        $contact->first_name_hiragana = $request->first_name_hiragana;
-        $contact->tel = $request->tel;
-        $contact->company_name = $request->company_name;
-        $contact->email = $request->email;
-        $contact->content = $request->content;
-        $contact->internet_search = $request->internet_search;
-        $contact->search_word = $request->search_word;
-        $contact->acquaintance_introduction = $request->acquaintance_introduction;
-        $contact->introducer_name = $request->introducer_name;
-        $contact->sns = $request->sns;
-        $contact->flyer = $request->flyer;
-        $contact->others = $request->others;
-        $contact->free_input = $request->free_input;
-
-        $contact->save();
+    public function complete(Contact $contact, ContactFormRequest $request){
+        $contact->create($request->validated());
 
         $request->session()->forget('contact');
         return view('user.officialsupporter.complete');

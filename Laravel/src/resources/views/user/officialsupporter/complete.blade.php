@@ -2,7 +2,7 @@
     <head>
         <title>完了画面</title>
         <link rel="stylesheet" href="{{ asset('css/user/officialsupporter/complete.css') }}">
-        <link rel="icon" href="public/img/favicon.ico">
+        <link rel="icon" href="{{ asset('img/favicon.ico') }}">
         <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
     </head>
     <body id="body">
@@ -10,7 +10,7 @@
         <div id="container">
             <div class="main_div">
                 <div class="home_div">
-                    <a href="{{route("user.top")}}" class="home_a"><i class="material-icons top_icon">home</i></a>
+                    <a href="{{ route("user.top") }}" class="home_a"><i class="material-icons top_icon">home</i></a>
                     <i class="material-icons top_icon">arrow_forward_ios</i>
                     <p>オフィシャルサポーター</p>
                 </div>
@@ -32,7 +32,7 @@
                         </p>
                     </div>
                     <div class="back_btn">
-                        <a href="{{route("user.top")}}">トップページに戻る<img src="{{asset("img/arrow_left.png")}}" class="left_img" alt="arrow_left"></a>
+                        <a href="{{ route("user.top") }}">トップページに戻る<img src="{{ asset("img/arrow_left.png") }}" class="left_img" alt="arrow_left"></a>
                     </div>
                 </div>
                 <div class="mobile_tag">

@@ -25,3 +25,26 @@ Route::group(['prefix' => '/user', 'as' => 'user.'], function(){
   // 完了画面
   Route::post('/officialsupporter/complete','user\UserController@complete')->name('contact.complete');
 });
+
+Route::group(['prefix' => '/auth', 'as' => 'admin.'], function(){
+  // 管理者画面
+  Route::get('/','admin\AdminController@top')->name('top');
+  // news登録画面
+  Route::get('/news/add','admin\AdminController@add')->name('news.add');
+  // news登録処理
+  Route::post('/news/list','admin\AdminController@addNews')->name('addnews');
+  // news一覧
+  Route::get('/news/list','admin\AdminController@list')->name('news.list');
+  // news詳細画面
+  Route::get('/news/detail/{id}','admin\AdminController@detail')->name('news.detail');
+  // news更新
+  Route::post('/news/detail/{id}','admin\AdminController@update')->name('news.update');
+});
+
+Route::get('auth/login', function () {
+  return view('auth.login');
+});
+
+Route::get('auth/register', function () {
+  return view('auth.register');
+});
