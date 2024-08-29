@@ -34,6 +34,18 @@ services:
       TZ: 'Asia/Tokyo'
     volumes:
       - mysql-volume:/var/lib/mysql
-      
+
+  mail:
+    image: mailhog/mailhog
+    container_name: laravel-mail-1
+    ports:
+      - "8025:8025"
+    environment:
+      MH_STORAGE: maildir
+      MH_MAILDIR_PATH: /tmp
+    volumes:
+      - maildir:/tmp
+
 volumes:
   mysql-volume:
+  maildir: {}
