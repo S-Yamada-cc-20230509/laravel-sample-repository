@@ -1,0 +1,241 @@
+#body{
+    overflow-x: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+.main_div{
+    background-color: white;
+    margin-left: 23%;
+    width: 77%;
+}
+.material-icons{
+    color: white;
+    vertical-align: middle;
+    margin-right:10px;
+}
+.home_div{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.home_a{
+    text-decoration: none;
+}
+.home_a:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.top_icon{
+    color: #b5b5b5
+}
+.input_div{
+    width: 70%;
+    margin: 0 auto;
+}
+.contact_h2{
+    border-left: 5px solid #d30000;
+    padding-left: 10px;
+}
+.input_box{
+    width: 100%;
+    display: flex;
+    height: 7%;
+    margin-bottom: 30px;
+}
+.input_part{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.part_label{
+    width: 10%;
+}
+.text_input {
+    width: 95%;
+    height: 80%;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+}
+.text_input_w100{
+    width: 100%;
+    height: 5.6%;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.textarea{
+    width: 100%;
+    height: 15%;
+    border: solid 1px lightgray;
+    border-radius: 5px;
+}
+.checkbox_div{
+    margin-bottom: 5px;
+}
+.checkbox_label{
+    font-size: large;
+}
+.questionary_input{
+    width: 100%;
+    height: 5.6%;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+    margin-bottom: 15px;
+}
+.contact_btn{
+    position: relative;
+    display: flex;
+    width: 30%;
+    height: 5%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 25px;
+    color: #FFF;
+    font-weight: 600;
+    background: linear-gradient(90deg, rgb(226, 0, 0), rgb(249, 111, 111));
+    border: 0;
+    border-radius: 5px;
+}
+.contact_btn:hover{
+    opacity: 0.9;
+}
+.contact_btn:hover img{
+    transform: translateX(10px);
+}
+.right_img{
+    width: 13%;
+}
+.back_btn a{
+    position: relative;
+    display: flex;
+    width: 24%;
+    height: 2%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 25px;
+    font-weight: 600;
+    background: #FFF;
+    border: 1px solid #d30000;
+    border-radius: 5px;
+    margin-top: 10px;list-style-type: none;
+    text-decoration: none;
+    color: #d30000;
+}
+.back_btn:hover img{
+    transform: translateX(10px);
+}
+.left_img{
+    width: 13%;
+}
+.error_msg{
+    color: #d30000;
+    list-style-type: none;
+    font-size: 14px;
+}
+.error_div{
+    display: flex;
+}
+.error_right{
+    margin-left: 225px;
+}
+.error_right_hiragana{
+    margin-left: 215px;
+}
+@media screen and (min-width: 768px) and (max-width: 1280px){
+    #container{
+        width: 1280px;
+    }
+    .error_right {
+        margin-left: 165px;
+    }
+    .error_right_hiragana {
+        margin-left: 150px;
+    }
+    .back_btn a {
+        width: 23%;
+        height: 2.5%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .main_div {
+        background-color: white;
+        margin-left: 0;
+        width: 100%;
+    }
+    .home_div {
+        width: 90%;
+        margin-top: 100px;
+    }
+    .input_div {
+        width: 90%;
+    }
+    .error_div {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .error_msg {
+        font-size: 12px;
+    }
+    .error_right {
+        margin-left: 0;
+    }
+    .error_right_hiragana {
+        margin-left: 0;
+    }
+    .part_label {
+        width: 25%;
+    }
+    .contact_btn {
+        width:60%;
+        font-size: 17px;
+    }
+    .right_img {
+        width: 20%;
+    }
+    .back_btn a {
+        width: 47%;
+        height: 2.5%;
+        font-size: 17px;
+    }
+    .left_img {
+        width: 20%;
+    }
+    .mobile_tag{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 3%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .tag_div{
+        display: flex;
+        width: 45%;
+        border-top: 1px solid #6f6f6f;
+        border-left: 1px solid #6f6f6f;
+        border-right: 1px solid #6f6f6f;
+        border-bottom: 1px solid #6f6f6f;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+}
+@media screen and (300px <= width < 390px) {
+    .contact_btn {
+        height: 7%;
+    }
+    .back_btn a {
+        width: 45%;
+        height: 3.5%;
+    }
+}

@@ -5,10 +5,10 @@
 <body>
     <div class="menu" style="left: 0; top: 0;">
         <a href="{{ route('user.top') }}">
-            <img src="{{asset("img/logo.jpg")}}" class="menu_logo" alt="NCA">
+            <img src="{{ asset("img/logo.jpg") }}" class="menu_logo" alt="NCA">
         </a>
         <ul class="menu_ul">
-            <li><a href="#" class="menu_top">TOP</a></li>
+            <li><a href="{{ route("user.top") }}" class="menu_top">TOP</a></li>
             <li><a href="#" class="menu_a">NCAジュニアストリートクラブとは</a></li>
             <li><a href="#" class="menu_a">コンディショニングとは</a></li>
             <li><a href="#" class="menu_a">開発者・与志江について</a></li>
@@ -16,7 +16,7 @@
             <li><a href="#" class="menu_a">サービス内容</a></li>
             <li><a href="#" class="menu_a">料金</a></li>
             <li><a href="#" class="menu_a">利用者の声</a></li>
-            <li><a href="#" class="menu_a">オフィシャルサポーター</a></li>
+            <li><a href="{{ route("user.officialsupporter.top") }}" class="menu_a">オフィシャルサポーター</a></li>
             <li><a href="#" class="menu_a">NEWS</a></li>
             <li><a href="#" class="menu_a">よくある質問・お問い合わせ</a></li>
         </ul>
