@@ -13,8 +13,25 @@
         <div id="container">
             <x-menu></x-menu>
             <div class="main_div">
-                <div>
-                    <img src="{{ asset('img/8zUCehAIc2Nlb7D10ErYNytwC4mku6bYNmOOUymL.jpg') }}" class="top_img" alt="勝てる体幹トレーニングオンラインレッスン">
+                <div class="wrapper">
+                    <span id="prev" class="prev"></span>
+                    <span id="next" class="next"></span>
+                    <ul class="indicator">
+                        <li id="list1"></li>
+                        <li id="list2"></li>
+                        <li id="list3"></li>
+                    </ul>
+                    <div id="slider" class="slider_content slider1">
+                        <div class="slider_img slider_img1">
+                            <img src="{{ asset('img/8zUCehAIc2Nlb7D10ErYNytwC4mku6bYNmOOUymL.jpg') }}" class="top_img" alt="勝てる体幹トレーニングオンラインレッスン">
+                        </div>
+                        <div class="slider_img slider_img2">
+                            <img src="{{ asset('img/slider-test1.png') }}" class="top_img" alt="slider-test1">
+                        </div>
+                        <div class="slider_img slider_img3">
+                            <img src="{{ asset('img/slider-test2.png') }}" class="top_img" alt="slider-test2">
+                        </div>
+                    </div>
                 </div>
                 <div class="news_div">
                     <div class="news_title">
@@ -202,5 +219,6 @@
             <x-inquiry></x-inquiry>
             <x-footer></x-footer>
         </div>
+        <script src="{{ asset('/js/user_top.js') }}"></script>
     </body>
 </html>

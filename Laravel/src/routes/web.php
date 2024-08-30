@@ -1,5 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MailSendController;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,3 +49,5 @@ Route::get('auth/login', function () {
 Route::get('auth/register', function () {
   return view('auth.register');
 });
+
+Route::get('/email', [MailSendController::class, 'index']);
